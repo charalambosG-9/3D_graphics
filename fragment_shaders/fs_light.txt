@@ -1,0 +1,9 @@
+#version 330 core
+
+out vec4 fragColor;
+
+uniform vec3 cubeColour;
+
+void main() {
+  fragColor = vec4(cubeColour,1.0);
+}
